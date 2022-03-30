@@ -1,0 +1,1738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="49" passed="40" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-26T13:46:43 IST" name="Suite" finished-at="2021-09-26T13:49:54 IST" duration-ms="191568">
+    <groups>
+    </groups>
+    <test started-at="2021-09-26T13:46:43 IST" name="Test" finished-at="2021-09-26T13:49:54 IST" duration-ms="191568">
+      <class name="main.java.utility.Projectcommonmethodes">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:main.java.utility.Projectcommonmethodes@56cdfb3b]" started-at="2021-09-26T13:46:42 IST" name="beforeSuite" finished-at="2021-09-26T13:46:43 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:main.java.utility.Projectcommonmethodes@56cdfb3b]" started-at="2021-09-26T13:46:43 IST" name="beforeTest" finished-at="2021-09-26T13:46:43 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:main.java.utility.Projectcommonmethodes@56cdfb3b]" started-at="2021-09-26T13:49:54 IST" name="afterTest" finished-at="2021-09-26T13:49:54 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:main.java.utility.Projectcommonmethodes@56cdfb3b]" started-at="2021-09-26T13:49:54 IST" name="afterSuite" finished-at="2021-09-26T13:50:04 IST" duration-ms="9411" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.length()" because "s" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+at javax.mail.internet.InternetAddress.parse(InternetAddress.java:793)
+at javax.mail.internet.InternetAddress.parse(InternetAddress.java:752)
+at javax.mail.internet.InternetAddress.parse(InternetAddress.java:729)
+at main.java.utility.Sendemail.send(Sendemail.java:63)
+at main.java.utility.Projectcommonmethodes.afterSuite(Projectcommonmethodes.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:351)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- main.java.utility.Projectcommonmethodes -->
+      <class name="main.java.utility.invokeapp">
+        <test-method is-config="true" signature="getbrowser()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:46:43 IST" name="getbrowser" finished-at="2021-09-26T13:46:43 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:46:43 IST" name="beforeMethod" finished-at="2021-09-26T13:46:43 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:46:43 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:46:43 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the finance offer details page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:46:43 IST" name="afterMethod" finished-at="2021-09-26T13:46:44 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:46:44 IST" name="beforeMethod" finished-at="2021-09-26T13:47:22 IST" duration-ms="37994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:47:22 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:48 IST" duration-ms="146739" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the lease offer details page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@aria-label,'zip code')]"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-379A2RE2', ip: '192.168.31.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\0014HO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d3b4f300b98b4f78d5adc47ba41ebc3
+*** Element info: {Using=xpath, value=//button[contains(@aria-label,'zip code')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@aria-label,'zip code')]"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-379A2RE2', ip: '192.168.31.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\0014HO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d3b4f300b98b4f78d5adc47ba41ebc3
+*** Element info: {Using=xpath, value=//button[contains(@aria-label,'zip code')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at main.java.pagesobject.LocalOffers.zipPopup(LocalOffers.java:111)
+at main.java.testcase.Testcase.getsetData(Testcase.java:41)
+at main.java.utility.invokeapp.TestCase(invokeapp.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:48 IST" name="afterMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="beforeMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:50 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the Local offers Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="afterMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="beforeMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the offers page from home page banner section]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="afterMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="beforeMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the offers page from home page Next Step Finding section]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="afterMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="beforeMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:50 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the offers Page from footer link navigation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="afterMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="beforeMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the Special Promotions page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="afterMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="beforeMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the offers Page from header link navigation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="afterMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="beforeMethod" finished-at="2021-09-26T13:49:50 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the vehicle line up section from Home Page for SUVs category]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:50 IST" name="afterMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="beforeMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the vehicle line up section from Home Page for Sedans category]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="afterMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="beforeMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC011]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the vehicle line up section from Home Page for Compacts category]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="afterMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="beforeMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC012]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the NextFinding Section from Home Page for Build link]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="afterMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="beforeMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC013]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the NextFinding Section from Home Page for Offers link]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="afterMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="beforeMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC014]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify whether the user is able to verify the NextFinding Section from Home Page for Locate Dealer link]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="afterMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="beforeMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify All vehicles list in vehicle Browse page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="afterMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="beforeMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify SUVs category vehicles list in vehicle Browse page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="afterMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="beforeMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify Sedans category vehicles list in vehicle Browse page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="afterMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="beforeMethod" finished-at="2021-09-26T13:49:51 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify Compacts category vehicles list in vehicle Browse page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:51 IST" name="afterMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="beforeMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC019]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To Verify Compare Popup verification in vehicle Browse page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="afterMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="beforeMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To Verify Compare Popup vehicle Selection in vehicle Browse page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="afterMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="beforeMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC021]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify Owners Assurance Sub navigation functionality]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="afterMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="beforeMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC022]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify Header navigation functionality]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="afterMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="beforeMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC023]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To Verify payment calculator page functionality]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="afterMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="beforeMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To Verify Our company page functionality]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="afterMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="beforeMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC025]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To Verify News page functionality]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="afterMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="beforeMethod" finished-at="2021-09-26T13:49:52 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC026]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To Verify Auto Shows functionality]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:52 IST" name="afterMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="beforeMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC027]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To Verify compare to competitor page functionality]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="afterMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="beforeMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC028]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Why Hyundai Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="afterMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="beforeMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC029]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Shopper Assurance Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="afterMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="beforeMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC030]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Search Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="afterMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="beforeMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC031]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Apply for Credit Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="afterMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="beforeMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC032]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Careers Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="afterMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="beforeMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC033]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Motor Sports Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="afterMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="beforeMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC034]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Awards Page]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="afterMethod" finished-at="2021-09-26T13:49:53 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:53 IST" name="beforeMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC035]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Menu links navigations]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="afterMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="beforeMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC036]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Footer links navigations for Vehicles, Shopping Tools section]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="afterMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="beforeMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC037]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Footer links navigations for Why Hyundai, Owner section]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="afterMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="beforeMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC038]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Footer links navigations for About section]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="afterMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="beforeMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC039]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Footer links navigations for Social Links, Footer Logo section]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="afterMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="beforeMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC040]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Footer links navigations for Secondary footer section]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="afterMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="beforeMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="TestCase" data-provider="fetchData" finished-at="2021-09-26T13:49:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC041]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the user is able to verify the Footer links navigations for Language Selector]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.java.utility.invokeapp@2b91004a]" started-at="2021-09-26T13:49:54 IST" name="afterMethod" finished-at="2021-09-26T13:49:54 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- main.java.utility.invokeapp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

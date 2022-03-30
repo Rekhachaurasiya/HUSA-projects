@@ -1,0 +1,371 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 26 13:46:43 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>191 seconds (191568 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC002, To verify whether the user is able to verify the lease offer details page, YES, , </td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(@aria-label,&apos;zip code&apos;)]&quot;}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-379A2RE2&apos;, ip: &apos;192.168.31.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\0014HO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d3b4f300b98b4f78d5adc47ba41ebc3
+*** Element info: {Using=xpath, value=//button[contains(@aria-label,&apos;zip code&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at main.java.pagesobject.LocalOffers.zipPopup(LocalOffers.java:111)
+	at main.java.testcase.Testcase.getsetData(Testcase.java:41)
+	at main.java.utility.invokeapp.TestCase(invokeapp.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2113989903", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2113989903'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(@aria-label,&apos;zip code&apos;)]&quot;}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-379A2RE2&apos;, ip: &apos;192.168.31.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\0014HO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d3b4f300b98b4f78d5adc47ba41ebc3
+*** Element info: {Using=xpath, value=//button[contains(@aria-label,&apos;zip code&apos;)]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at main.java.pagesobject.LocalOffers.zipPopup(LocalOffers.java:111)
+	at main.java.testcase.Testcase.getsetData(Testcase.java:41)
+	at main.java.utility.invokeapp.TestCase(invokeapp.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>146</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC001, To verify whether the user is able to verify the finance offer details page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC003, To verify whether the user is able to verify the Local offers Page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC004, To verify whether the user is able to verify the offers page from home page banner section, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC005, To verify whether the user is able to verify the offers page from home page Next Step Finding section, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC006, To verify whether the user is able to verify the offers Page from footer link navigation, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC007, To verify whether the user is able to verify the Special Promotions page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC008, To verify whether the user is able to verify the offers Page from header link navigation, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC009, To verify whether the user is able to verify the vehicle line up section from Home Page for SUVs category, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC010, To verify whether the user is able to verify the vehicle line up section from Home Page for Sedans category, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC011, To verify whether the user is able to verify the vehicle line up section from Home Page for Compacts category, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC012, To verify whether the user is able to verify the NextFinding Section from Home Page for Build link, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC013, To verify whether the user is able to verify the NextFinding Section from Home Page for Offers link, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC014, To verify whether the user is able to verify the NextFinding Section from Home Page for Locate Dealer link, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC015, To verify All vehicles list in vehicle Browse page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC016, To verify SUVs category vehicles list in vehicle Browse page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC017, To verify Sedans category vehicles list in vehicle Browse page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC018, To verify Compacts category vehicles list in vehicle Browse page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC019, To Verify Compare Popup verification in vehicle Browse page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC020, To Verify Compare Popup vehicle Selection in vehicle Browse page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC021, To verify Owners Assurance Sub navigation functionality, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC022, To verify Header navigation functionality, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC023, To Verify payment calculator page functionality, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC024, To Verify Our company page functionality, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC025, To Verify News page functionality, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC026, To Verify Auto Shows functionality, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC027, To Verify compare to competitor page functionality, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC028, To verify the user is able to verify the Why Hyundai Page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC029, To verify the user is able to verify the Shopper Assurance Page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC030, To verify the user is able to verify the Search Page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC031, To verify the user is able to verify the Apply for Credit Page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC032, To verify the user is able to verify the Careers Page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC033, To verify the user is able to verify the Motor Sports Page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC034, To verify the user is able to verify the Awards Page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC035, To verify the user is able to verify the Menu links navigations, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC036, To verify the user is able to verify the Footer links navigations for Vehicles, Shopping Tools section, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC037, To verify the user is able to verify the Footer links navigations for Why Hyundai, Owner section, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC038, To verify the user is able to verify the Footer links navigations for About section, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC039, To verify the user is able to verify the Footer links navigations for Social Links, Footer Logo section, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC040, To verify the user is able to verify the Footer links navigations for Secondary footer section, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC041, To verify the user is able to verify the Footer links navigations for Language Selector, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+</table><p>
+</body>
+</html>
