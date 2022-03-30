@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.193">
+    <testcase classname="Home Page" name="To verify wheather user is able to find a dealer and Navigate to Get Directions,Test drive" time="0.07">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Launch chrome browser in mobile.......................................undefined
+And Launch the Hyundai USA url..............................................skipped
+And close notification popUp if any.........................................skipped
+And user enter the zip code.................................................skipped
+And click on the accept and close cookie....................................skipped
+When Click on "Menu" icon in global navigation..............................skipped
+And Enter a search term in search field.....................................skipped
+And Click on Search CTA.....................................................skipped
+And Click on following links and Observe....................................skipped
+Then verify Hyundai Logo....................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
