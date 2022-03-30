@@ -1,0 +1,279 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 12 15:26:32 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>399 seconds (399551 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC001, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Hyundai Palisade, YES, , </td>
+<td></td>
+<td>367</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC002, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2020 NEXO Fuel Cell, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC003, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Accent, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC004, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Elantra, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC005, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Sonata, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC006, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Sonata Hybrid, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC007, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2022 Tucson, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC008, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2020 IONIQ Hybrid, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC009, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2020 Ioniq PHEV, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC010, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2020 Ioniq Electric, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC011, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Veloster , NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC012, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Veloster N, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC013, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Elantra GT, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC014, To verify whether user is able to view the Certified Pre Owned page properly, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC015, To verify whether the user is able to perform RAQ functionality for 2021 KONA Vehicle , NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC016, To verify whether the user is able to perform RAQ functionality for 2021 PALISADE Vehicle, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC017, To verify whether the user is able to perform RAQ functionality for 2021 ACCENT Vehicle, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC018, To verify whether the user is able to perform RAQ functionality for 2021 SONATA Vehicle, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC019, To verify whether the user is able to perform RAQ functionality for 2021 ELANTRA GT Vehicle, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC020, To verify whether the user is able to perform RAQ functionality for 2020 IONIQ Hybrid Vehicle, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC021, To Verify Keep Me update News Lead submission both Positive and Negative flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC022, To Verify RAQ Lead submission and Email verification for 2021 KONA Electric vehicle both Positive and Negative flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC023, To Verify RAQ Lead submission and Email verification for 2020 NEXO Fuel Cell vehicle both Positive and Negative flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC024, To Verify VLP-RAQ Lead submission and Email verification for 2021 SANTA FE vehicle both Positive and Negative flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC025, To Verify VLP-RAQ Lead submission and Email verification for 2021 PALISADE vehicle both Positive and Negative flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC026, To Verify Search Inventory  Lead submission and Email verification Positive flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC027, To Verify Search Inventory  Lead submission for Negative flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC028, To Verify Lead Submission for AutoSubmission  Page with positive and negative flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC029, To Verify Lead Submission for Offers Page with positive and negative flow-2020 Ioniq Hybrid, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC030, To Verify Lead Submission for Offers Page with positive and negative flow-2021 Accent, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC031, To Verify Lead Submission for Build and Price with  positive and negative flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC032, To Verify Lead Submission for Build and Price with  positive and negative flow, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC033, To verify whether user is able to verify Schedule Test Drive, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC034, To verify whether the user is able to verify the Compare Vehicles page with Build page navigation, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC035, To verify whether the user is able to verify the Compare Vehicles page with Explore page navigation, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC036, To verify whether the user is able to verify the Compare Competitors page with the build link, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC037, To verify whether the user is able to verify the Compare Competitors page with the explore link, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC038, To verify whether the user is able to verify the Compare Competitors page with the change link, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC039, To verify whether the user is able to verify the Local Offers Page with filter button, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+<tr>
+<td title='main.java.utility.invokeapp.TestCase()'><b>TestCase</b><br>Test class: main.java.utility.invokeapp<br>Parameters: TC040, To verify whether the user is able to verify the saving offer details page, NO, , </td>
+<td></td>
+<td>0</td>
+<td>main.java.utility.invokeapp@2b91004a</td></tr>
+</table><p>
+</body>
+</html>
