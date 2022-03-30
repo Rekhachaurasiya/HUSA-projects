@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\0014HO744\Desktop\eclipse-workspace\HUSAMobileAutomationPart1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 1 failed,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC006, To verify the search Inventory vehicle details page, YES, , )">TestCase(TC006, To verify the search Inventory vehicle details page, YES, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC003, To Verify whether user is able to Find a Dealer and to Find more dealers list are displaying ...)">TestCase(TC003, To Verify whether user is able to Find a Dealer and to Find more dealers list are displaying ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC008, To verify whether user is able to select vehicle details in Build Your landing  page for Venu...)">TestCase(TC008, To verify whether user is able to select vehicle details in Build Your landing  page for Venu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC001, To verify whether user is able to find a dealer and navigate to getdirection,Test drive, NO, ...)">TestCase(TC001, To verify whether user is able to find a dealer and navigate to getdirection,Test drive, NO, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC037, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for 2022 Kona, NO, , )">TestCase(TC037, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2022 Kona, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC002, To verify whether user is able to Find a Dealer and Navigate to ShopperAssurance,CarCarea and...)">TestCase(TC002, To verify whether user is able to Find a Dealer and Navigate to ShopperAssurance,CarCarea and...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC014, To verify whether user is able to select vehicle details in Build Your landing  page for NEXO...)">TestCase(TC014, To verify whether user is able to select vehicle details in Build Your landing  page for NEXO...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC036, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for 2021 Venue, NO, , )">TestCase(TC036, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Venue, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC017, To verify whether user is able to select vehicle details in Build Your landing  page for SONA...)">TestCase(TC017, To verify whether user is able to select vehicle details in Build Your landing  page for SONA...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC009, To verify the Build and Price summary page for Kona, NO, , )">TestCase(TC009, To verify the Build and Price summary page for Kona, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC033, To Verify VLP  offers section  fo section for 2021 Accent, NO, , )">TestCase(TC033, To Verify VLP  offers section  fo section for 2021 Accent, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC015, To verify the Build and Price summary page for ACCENT, NO, , )">TestCase(TC015, To verify the Build and Price summary page for ACCENT, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC026, To Verify VLP Offers section for 2021 Venue, NO, , )">TestCase(TC026, To Verify VLP Offers section for 2021 Venue, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC032, To Verify VLP Hyundai difference section for Ioniq Hybrid, NO, , )">TestCase(TC032, To Verify VLP Hyundai difference section for Ioniq Hybrid, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC018, To verify the Build and Price summary page for SONATAHybrid, NO, , )">TestCase(TC018, To verify the Build and Price summary page for SONATAHybrid, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC035, To Verify VLP offers section for 2021 Sonata, NO, , )">TestCase(TC035, To Verify VLP offers section for 2021 Sonata, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC039, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for 2021 Tucson, NO, , )">TestCase(TC039, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Tucson, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC016, To verify whether user is able to perform build and request a quote for ELANTRA, NO, , )">TestCase(TC016, To verify whether user is able to perform build and request a quote for ELANTRA, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC010, To verify whether user is able to perform build and request a quote for KONA electric, NO, , )">TestCase(TC010, To verify whether user is able to perform build and request a quote for KONA electric, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC021, To verify the Build and Price summary page for IONIQPluginHybrid, NO, , )">TestCase(TC021, To verify the Build and Price summary page for IONIQPluginHybrid, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC029, To Verify VLP Hyudnai Difference navigation  for  2021 Tucson, NO, , )">TestCase(TC029, To Verify VLP Hyudnai Difference navigation  for  2021 Tucson, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC022, To verify whether user is able to perform build and request a quote for IONIQElectric, NO, , )">TestCase(TC022, To verify whether user is able to perform build and request a quote for IONIQElectric, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC028, To Verify VLP offers section request a quote submission for Veloster, NO, , )">TestCase(TC028, To Verify VLP offers section request a quote submission for Veloster, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC005, To verify the search Inventory vehicle results page, NO, , )">TestCase(TC005, To verify the search Inventory vehicle results page, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC024, To verify whether user is able to perform build and request a quote for VELOSTERN, NO, , )">TestCase(TC024, To verify whether user is able to perform build and request a quote for VELOSTERN, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC030, To Verify VLPoffers section request a quote for 2020 Santa Fe, NO, , )">TestCase(TC030, To Verify VLPoffers section request a quote for 2020 Santa Fe, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC012, To verify the Build and Price summary page for SANTAFE, NO, , )">TestCase(TC012, To verify the Build and Price summary page for SANTAFE, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC023, To verify whether user is able to perform build and request a quote for VELOSTER, NO, , )">TestCase(TC023, To verify whether user is able to perform build and request a quote for VELOSTER, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC038, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for Kona Electric, NO, , )">TestCase(TC038, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for Kona Electric, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC004, To verify the search Inventory vehicle model page, NO, , )">TestCase(TC004, To verify the search Inventory vehicle model page, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC034, To Verify VLP offers section  navigation  for 2021 Elantra, NO, , )">TestCase(TC034, To Verify VLP offers section  navigation  for 2021 Elantra, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC013, To verify whether user is able to perform build and request a quote for PALISADE, NO, , )">TestCase(TC013, To verify whether user is able to perform build and request a quote for PALISADE, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC011, To verify whether user is able to select vehicle details in Build Your landing  page for Tucs...)">TestCase(TC011, To verify whether user is able to select vehicle details in Build Your landing  page for Tucs...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC020, To verify whether user is able to select vehicle details in Build Your landing  page for IONI...)">TestCase(TC020, To verify whether user is able to select vehicle details in Build Your landing  page for IONI...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC027, To Verify VLP Kona Awards section  for 2021 Kona, NO, , )">TestCase(TC027, To Verify VLP Kona Awards section  for 2021 Kona, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC007, To verify whehther user is able to submit the Request a quote form in search Inventory page, ...)">TestCase(TC007, To verify whehther user is able to submit the Request a quote form in search Inventory page, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC019, To verify whether user is able to perform build and request a quote for 2022 Tucson, NO, , )">TestCase(TC019, To verify whether user is able to perform build and request a quote for 2022 Tucson, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC040, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for 2021  Santa Fe, NO, , )">TestCase(TC040, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021  Santa Fe, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC025, To verify whether user is able to perform build and request a quote for ELANTRAGT, NO, , )">TestCase(TC025, To verify whether user is able to perform build and request a quote for ELANTRAGT, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="main.java.utility.invokeapp" class="method navigator-link" hash-for-method="TestCase(TC031, To Verify VLP offers section  for 2021 Hyundai Palisade, NO, , )">TestCase(TC031, To Verify VLP offers section  for 2021 Hyundai Palisade, NO, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">main.java.utility.invokeapp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC006, To verify the search Inventory vehicle details page, YES, , )">
+                  </a> <!-- TestCase(TC006, To verify the search Inventory vehicle details page, YES, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC006, To verify the search Inventory vehicle details page, YES, , )</span>
+                  <div class="stack-trace">java.lang.RuntimeException: FAILED
+	at main.java.utility.Reporter.reportStep(Reporter.java:80)
+	at main.java.utility.Reporter.reportStep(Reporter.java:91)
+	at main.java.commonComponents.Commoncomponents.clickByXpath(Commoncomponents.java:331)
+	at main.java.pagesobject.Search_Inventory.vehicleResult(Search_Inventory.java:151)
+	at main.java.testcase.Testcase.getsetData(Testcase.java:50)
+	at main.java.utility.invokeapp.TestCase(invokeapp.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">main.java.utility.invokeapp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC003, To Verify whether user is able to Find a Dealer and to Find more dealers list are displaying ...)">
+                  </a> <!-- TestCase(TC003, To Verify whether user is able to Find a Dealer and to Find more dealers list are displaying ...) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC003, To Verify whether user is able to Find a Dealer and to Find more dealers list are displaying after clicking on Show more Dealer Ships link, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC008, To verify whether user is able to select vehicle details in Build Your landing  page for Venu...)">
+                  </a> <!-- TestCase(TC008, To verify whether user is able to select vehicle details in Build Your landing  page for Venu...) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC008, To verify whether user is able to select vehicle details in Build Your landing  page for Venue , NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC001, To verify whether user is able to find a dealer and navigate to getdirection,Test drive, NO, ...)">
+                  </a> <!-- TestCase(TC001, To verify whether user is able to find a dealer and navigate to getdirection,Test drive, NO, ...) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC001, To verify whether user is able to find a dealer and navigate to getdirection,Test drive, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC037, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for 2022 Kona, NO, , )">
+                  </a> <!-- TestCase(TC037, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2022 Kona, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC037, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2022 Kona, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC002, To verify whether user is able to Find a Dealer and Navigate to ShopperAssurance,CarCarea and...)">
+                  </a> <!-- TestCase(TC002, To verify whether user is able to Find a Dealer and Navigate to ShopperAssurance,CarCarea and...) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC002, To verify whether user is able to Find a Dealer and Navigate to ShopperAssurance,CarCarea and Test Drive, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC014, To verify whether user is able to select vehicle details in Build Your landing  page for NEXO...)">
+                  </a> <!-- TestCase(TC014, To verify whether user is able to select vehicle details in Build Your landing  page for NEXO...) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC014, To verify whether user is able to select vehicle details in Build Your landing  page for NEXOFuelCell , NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC036, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for 2021 Venue, NO, , )">
+                  </a> <!-- TestCase(TC036, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Venue, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC036, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Venue, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC017, To verify whether user is able to select vehicle details in Build Your landing  page for SONA...)">
+                  </a> <!-- TestCase(TC017, To verify whether user is able to select vehicle details in Build Your landing  page for SONA...) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC017, To verify whether user is able to select vehicle details in Build Your landing  page for SONATA , NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC009, To verify the Build and Price summary page for Kona, NO, , )">
+                  </a> <!-- TestCase(TC009, To verify the Build and Price summary page for Kona, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC009, To verify the Build and Price summary page for Kona, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC033, To Verify VLP  offers section  fo section for 2021 Accent, NO, , )">
+                  </a> <!-- TestCase(TC033, To Verify VLP  offers section  fo section for 2021 Accent, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC033, To Verify VLP  offers section  fo section for 2021 Accent, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC015, To verify the Build and Price summary page for ACCENT, NO, , )">
+                  </a> <!-- TestCase(TC015, To verify the Build and Price summary page for ACCENT, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC015, To verify the Build and Price summary page for ACCENT, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC026, To Verify VLP Offers section for 2021 Venue, NO, , )">
+                  </a> <!-- TestCase(TC026, To Verify VLP Offers section for 2021 Venue, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC026, To Verify VLP Offers section for 2021 Venue, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC032, To Verify VLP Hyundai difference section for Ioniq Hybrid, NO, , )">
+                  </a> <!-- TestCase(TC032, To Verify VLP Hyundai difference section for Ioniq Hybrid, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC032, To Verify VLP Hyundai difference section for Ioniq Hybrid, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC018, To verify the Build and Price summary page for SONATAHybrid, NO, , )">
+                  </a> <!-- TestCase(TC018, To verify the Build and Price summary page for SONATAHybrid, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC018, To verify the Build and Price summary page for SONATAHybrid, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC035, To Verify VLP offers section for 2021 Sonata, NO, , )">
+                  </a> <!-- TestCase(TC035, To Verify VLP offers section for 2021 Sonata, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC035, To Verify VLP offers section for 2021 Sonata, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC039, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for 2021 Tucson, NO, , )">
+                  </a> <!-- TestCase(TC039, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Tucson, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC039, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Tucson, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC016, To verify whether user is able to perform build and request a quote for ELANTRA, NO, , )">
+                  </a> <!-- TestCase(TC016, To verify whether user is able to perform build and request a quote for ELANTRA, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC016, To verify whether user is able to perform build and request a quote for ELANTRA, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC010, To verify whether user is able to perform build and request a quote for KONA electric, NO, , )">
+                  </a> <!-- TestCase(TC010, To verify whether user is able to perform build and request a quote for KONA electric, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC010, To verify whether user is able to perform build and request a quote for KONA electric, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC021, To verify the Build and Price summary page for IONIQPluginHybrid, NO, , )">
+                  </a> <!-- TestCase(TC021, To verify the Build and Price summary page for IONIQPluginHybrid, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC021, To verify the Build and Price summary page for IONIQPluginHybrid, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC029, To Verify VLP Hyudnai Difference navigation  for  2021 Tucson, NO, , )">
+                  </a> <!-- TestCase(TC029, To Verify VLP Hyudnai Difference navigation  for  2021 Tucson, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC029, To Verify VLP Hyudnai Difference navigation  for  2021 Tucson, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC022, To verify whether user is able to perform build and request a quote for IONIQElectric, NO, , )">
+                  </a> <!-- TestCase(TC022, To verify whether user is able to perform build and request a quote for IONIQElectric, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC022, To verify whether user is able to perform build and request a quote for IONIQElectric, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC028, To Verify VLP offers section request a quote submission for Veloster, NO, , )">
+                  </a> <!-- TestCase(TC028, To Verify VLP offers section request a quote submission for Veloster, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC028, To Verify VLP offers section request a quote submission for Veloster, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC005, To verify the search Inventory vehicle results page, NO, , )">
+                  </a> <!-- TestCase(TC005, To verify the search Inventory vehicle results page, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC005, To verify the search Inventory vehicle results page, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC024, To verify whether user is able to perform build and request a quote for VELOSTERN, NO, , )">
+                  </a> <!-- TestCase(TC024, To verify whether user is able to perform build and request a quote for VELOSTERN, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC024, To verify whether user is able to perform build and request a quote for VELOSTERN, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC030, To Verify VLPoffers section request a quote for 2020 Santa Fe, NO, , )">
+                  </a> <!-- TestCase(TC030, To Verify VLPoffers section request a quote for 2020 Santa Fe, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC030, To Verify VLPoffers section request a quote for 2020 Santa Fe, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC012, To verify the Build and Price summary page for SANTAFE, NO, , )">
+                  </a> <!-- TestCase(TC012, To verify the Build and Price summary page for SANTAFE, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC012, To verify the Build and Price summary page for SANTAFE, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC023, To verify whether user is able to perform build and request a quote for VELOSTER, NO, , )">
+                  </a> <!-- TestCase(TC023, To verify whether user is able to perform build and request a quote for VELOSTER, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC023, To verify whether user is able to perform build and request a quote for VELOSTER, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC038, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for Kona Electric, NO, , )">
+                  </a> <!-- TestCase(TC038, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for Kona Electric, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC038, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for Kona Electric, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC004, To verify the search Inventory vehicle model page, NO, , )">
+                  </a> <!-- TestCase(TC004, To verify the search Inventory vehicle model page, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC004, To verify the search Inventory vehicle model page, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC034, To Verify VLP offers section  navigation  for 2021 Elantra, NO, , )">
+                  </a> <!-- TestCase(TC034, To Verify VLP offers section  navigation  for 2021 Elantra, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC034, To Verify VLP offers section  navigation  for 2021 Elantra, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC013, To verify whether user is able to perform build and request a quote for PALISADE, NO, , )">
+                  </a> <!-- TestCase(TC013, To verify whether user is able to perform build and request a quote for PALISADE, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC013, To verify whether user is able to perform build and request a quote for PALISADE, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC011, To verify whether user is able to select vehicle details in Build Your landing  page for Tucs...)">
+                  </a> <!-- TestCase(TC011, To verify whether user is able to select vehicle details in Build Your landing  page for Tucs...) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC011, To verify whether user is able to select vehicle details in Build Your landing  page for Tucson , NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC020, To verify whether user is able to select vehicle details in Build Your landing  page for IONI...)">
+                  </a> <!-- TestCase(TC020, To verify whether user is able to select vehicle details in Build Your landing  page for IONI...) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC020, To verify whether user is able to select vehicle details in Build Your landing  page for IONIQHybrid, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC027, To Verify VLP Kona Awards section  for 2021 Kona, NO, , )">
+                  </a> <!-- TestCase(TC027, To Verify VLP Kona Awards section  for 2021 Kona, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC027, To Verify VLP Kona Awards section  for 2021 Kona, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC007, To verify whehther user is able to submit the Request a quote form in search Inventory page, ...)">
+                  </a> <!-- TestCase(TC007, To verify whehther user is able to submit the Request a quote form in search Inventory page, ...) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC007, To verify whehther user is able to submit the Request a quote form in search Inventory page, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC019, To verify whether user is able to perform build and request a quote for 2022 Tucson, NO, , )">
+                  </a> <!-- TestCase(TC019, To verify whether user is able to perform build and request a quote for 2022 Tucson, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC019, To verify whether user is able to perform build and request a quote for 2022 Tucson, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC040, To Verify the VLP Page of Overview,Trims,Gallery&amp;Specs section for 2021  Santa Fe, NO, , )">
+                  </a> <!-- TestCase(TC040, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021  Santa Fe, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC040, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021  Santa Fe, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC025, To verify whether user is able to perform build and request a quote for ELANTRAGT, NO, , )">
+                  </a> <!-- TestCase(TC025, To verify whether user is able to perform build and request a quote for ELANTRAGT, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC025, To verify whether user is able to perform build and request a quote for ELANTRAGT, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase(TC031, To Verify VLP offers section  for 2021 Hyundai Palisade, NO, , )">
+                  </a> <!-- TestCase(TC031, To Verify VLP offers section  for 2021 Hyundai Palisade, NO, , ) -->
+                  <span class="method-name">TestCase</span>
+                  <span class="parameters">(TC031, To Verify VLP offers section  for 2021 Hyundai Palisade, NO, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\0014HO744\Desktop\eclipse-workspace\HUSAMobileAutomationPart1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;main.java.utility.Reporter&quot;/&gt;
+      &lt;class name=&quot;main.java.utility.Projectcommonmethodes&quot;/&gt;
+      &lt;class name=&quot;main.java.pagesobject.FindDealer&quot;/&gt;
+      &lt;class name=&quot;main.java.utility.invokeapp&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestCase')
+data.setCell(0, 2, 'main.java.utility.invokeapp')
+data.setCell(0, 3, 393438);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestCase')
+data.setCell(1, 2, 'main.java.utility.invokeapp')
+data.setCell(1, 3, 29);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestCase')
+data.setCell(2, 2, 'main.java.utility.invokeapp')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestCase')
+data.setCell(3, 2, 'main.java.utility.invokeapp')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestCase')
+data.setCell(4, 2, 'main.java.utility.invokeapp')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestCase')
+data.setCell(5, 2, 'main.java.utility.invokeapp')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestCase')
+data.setCell(6, 2, 'main.java.utility.invokeapp')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestCase')
+data.setCell(7, 2, 'main.java.utility.invokeapp')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestCase')
+data.setCell(8, 2, 'main.java.utility.invokeapp')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestCase')
+data.setCell(9, 2, 'main.java.utility.invokeapp')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestCase')
+data.setCell(10, 2, 'main.java.utility.invokeapp')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestCase')
+data.setCell(11, 2, 'main.java.utility.invokeapp')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestCase')
+data.setCell(12, 2, 'main.java.utility.invokeapp')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestCase')
+data.setCell(13, 2, 'main.java.utility.invokeapp')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestCase')
+data.setCell(14, 2, 'main.java.utility.invokeapp')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestCase')
+data.setCell(15, 2, 'main.java.utility.invokeapp')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestCase')
+data.setCell(16, 2, 'main.java.utility.invokeapp')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestCase')
+data.setCell(17, 2, 'main.java.utility.invokeapp')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TestCase')
+data.setCell(18, 2, 'main.java.utility.invokeapp')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestCase')
+data.setCell(19, 2, 'main.java.utility.invokeapp')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestCase')
+data.setCell(20, 2, 'main.java.utility.invokeapp')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestCase')
+data.setCell(21, 2, 'main.java.utility.invokeapp')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestCase')
+data.setCell(22, 2, 'main.java.utility.invokeapp')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TestCase')
+data.setCell(23, 2, 'main.java.utility.invokeapp')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TestCase')
+data.setCell(24, 2, 'main.java.utility.invokeapp')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TestCase')
+data.setCell(25, 2, 'main.java.utility.invokeapp')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TestCase')
+data.setCell(26, 2, 'main.java.utility.invokeapp')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TestCase')
+data.setCell(27, 2, 'main.java.utility.invokeapp')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TestCase')
+data.setCell(28, 2, 'main.java.utility.invokeapp')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TestCase')
+data.setCell(29, 2, 'main.java.utility.invokeapp')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TestCase')
+data.setCell(30, 2, 'main.java.utility.invokeapp')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TestCase')
+data.setCell(31, 2, 'main.java.utility.invokeapp')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TestCase')
+data.setCell(32, 2, 'main.java.utility.invokeapp')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TestCase')
+data.setCell(33, 2, 'main.java.utility.invokeapp')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TestCase')
+data.setCell(34, 2, 'main.java.utility.invokeapp')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TestCase')
+data.setCell(35, 2, 'main.java.utility.invokeapp')
+data.setCell(35, 3, 1);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'TestCase')
+data.setCell(36, 2, 'main.java.utility.invokeapp')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'TestCase')
+data.setCell(37, 2, 'main.java.utility.invokeapp')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'TestCase')
+data.setCell(38, 2, 'main.java.utility.invokeapp')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'TestCase')
+data.setCell(39, 2, 'main.java.utility.invokeapp')
+data.setCell(39, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">main.java.utility.invokeapp</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">main.java.pagesobject.FindDealer</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">main.java.utility.Projectcommonmethodes</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">346 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">main.java.utility.invokeapp</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getbrowser</span>
+                <span class="method-start">388 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC001, To verify whether user is able to find a dealer and navigate to getdirection,Test drive, NO, ...)</span>
+                <span class="method-start">773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">807 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC002, To verify whether user is able to Find a Dealer and Navigate to ShopperAssurance,CarCarea and...)</span>
+                <span class="method-start">1339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC003, To Verify whether user is able to Find a Dealer and to Find more dealers list are displaying ...)</span>
+                <span class="method-start">1477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC004, To verify the search Inventory vehicle model page, NO, , )</span>
+                <span class="method-start">1582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC005, To verify the search Inventory vehicle results page, NO, , )</span>
+                <span class="method-start">1656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase(TC006, To verify the search Inventory vehicle details page, YES, , )</span>
+                <span class="method-start">40883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">434332 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">435689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC007, To verify whehther user is able to submit the Request a quote form in search Inventory page, ...)</span>
+                <span class="method-start">435735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">435740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">435854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC008, To verify whether user is able to select vehicle details in Build Your landing  page for Venu...)</span>
+                <span class="method-start">435889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">435892 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">435943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC009, To verify the Build and Price summary page for Kona, NO, , )</span>
+                <span class="method-start">435967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">435970 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC010, To verify whether user is able to perform build and request a quote for KONA electric, NO, , )</span>
+                <span class="method-start">436053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436056 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC011, To verify whether user is able to select vehicle details in Build Your landing  page for Tucs...)</span>
+                <span class="method-start">436134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC012, To verify the Build and Price summary page for SANTAFE, NO, , )</span>
+                <span class="method-start">436203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC013, To verify whether user is able to perform build and request a quote for PALISADE, NO, , )</span>
+                <span class="method-start">436278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436280 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC014, To verify whether user is able to select vehicle details in Build Your landing  page for NEXO...)</span>
+                <span class="method-start">436350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436353 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC015, To verify the Build and Price summary page for ACCENT, NO, , )</span>
+                <span class="method-start">436419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436472 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC016, To verify whether user is able to perform build and request a quote for ELANTRA, NO, , )</span>
+                <span class="method-start">436497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436500 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC017, To verify whether user is able to select vehicle details in Build Your landing  page for SONA...)</span>
+                <span class="method-start">436575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC018, To verify the Build and Price summary page for SONATAHybrid, NO, , )</span>
+                <span class="method-start">436688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC019, To verify whether user is able to perform build and request a quote for 2022 Tucson, NO, , )</span>
+                <span class="method-start">436815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC020, To verify whether user is able to select vehicle details in Build Your landing  page for IONI...)</span>
+                <span class="method-start">436913 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">436916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">436976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC021, To verify the Build and Price summary page for IONIQPluginHybrid, NO, , )</span>
+                <span class="method-start">437013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437014 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC022, To verify whether user is able to perform build and request a quote for IONIQElectric, NO, , )</span>
+                <span class="method-start">437088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC023, To verify whether user is able to perform build and request a quote for VELOSTER, NO, , )</span>
+                <span class="method-start">437156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC024, To verify whether user is able to perform build and request a quote for VELOSTERN, NO, , )</span>
+                <span class="method-start">437239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437241 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC025, To verify whether user is able to perform build and request a quote for ELANTRAGT, NO, , )</span>
+                <span class="method-start">437322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC026, To Verify VLP Offers section for 2021 Venue, NO, , )</span>
+                <span class="method-start">437408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC027, To Verify VLP Kona Awards section  for 2021 Kona, NO, , )</span>
+                <span class="method-start">437481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC028, To Verify VLP offers section request a quote submission for Veloster, NO, , )</span>
+                <span class="method-start">437553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC029, To Verify VLP Hyudnai Difference navigation  for  2021 Tucson, NO, , )</span>
+                <span class="method-start">437627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437666 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC030, To Verify VLPoffers section request a quote for 2020 Santa Fe, NO, , )</span>
+                <span class="method-start">437691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC031, To Verify VLP offers section  for 2021 Hyundai Palisade, NO, , )</span>
+                <span class="method-start">437764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437766 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC032, To Verify VLP Hyundai difference section for Ioniq Hybrid, NO, , )</span>
+                <span class="method-start">437841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC033, To Verify VLP  offers section  fo section for 2021 Accent, NO, , )</span>
+                <span class="method-start">437921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">437922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">437966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC034, To Verify VLP offers section  navigation  for 2021 Elantra, NO, , )</span>
+                <span class="method-start">438001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">438004 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">438044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC035, To Verify VLP offers section for 2021 Sonata, NO, , )</span>
+                <span class="method-start">438080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">438082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">438140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC036, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Venue, NO, , )</span>
+                <span class="method-start">438177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">438178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">438225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC037, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2022 Kona, NO, , )</span>
+                <span class="method-start">438261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">438263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">438324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC038, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for Kona Electric, NO, , )</span>
+                <span class="method-start">438373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">438375 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">438420 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC039, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021 Tucson, NO, , )</span>
+                <span class="method-start">438476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">438478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">438547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase(TC040, To Verify the VLP Page of Overview,Trims,Gallery&Specs section for 2021  Santa Fe, NO, , )</span>
+                <span class="method-start">438597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">438600 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">main.java.utility.Projectcommonmethodes</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">438696 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">438871 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
